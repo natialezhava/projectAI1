@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #111112;
+}
+main {
+    height: 100vh;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+nav ul {
+    list-style-type: none;
+}
+
+/* \\ common tags */
+.green {
+    background-color: #00FF40;
+}
+/* \\ header  */
+header {
+    padding: 20px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header> div > h2, h6 {
+    color: white;
+}
+.header-div__first {
+    display: flex;
+    position: relative;
+}
+.header-div__beta {
+    position: absolute;
+    color: white;
+    top: 0;
+    right: 86%;
+    margin: 0;
+}
+.Place {
+    position: relative;
+    color: white;
+}
+.beta {
+    position: absolute;
+    top: 0;
+    right: -40%;
+    margin: 0;
+    color: white;
+}
+.beta {
+    font-size: 10px;
+    color: #E5EAFF99;
+}
+
+/* \\ second div in header */
+.header-div__second {
+    max-width: 690px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-ul {
+    display: flex;
+}
+.header-ul > li {
+    margin-right: 4px;
+    /* border: 2px solid white; */
+    padding: 16px 20px;
+}
+.header-ul > li > a {
+    text-decoration: none;
+    color: #F2F4FFE5;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.nav {
+    max-width: 460px;
+    display: flex;
+    justify-content: space-between;
+}
+/* \\ button  */
+button {
+    background-color: #111112;
+    color: white;
+}
+
+.button > button:nth-child(1) {
+    width: 110px;
+    height: 52px;
+    border-radius: 16px;
+    border: 2px solid #CCD4FF1C;
+    padding: 16px, 24px, 16px, 24px;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.button > button:nth-child(2) {
+    width: 85px;
+    height: 52px;
+    border-radius: 16px;
+    padding: 16px, 24px, 16px, 24px;
+    gap: 10px;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+} 
+.join:hover {
+    background-color: #00FF40;
+    color: black;
+    border: black;
+}
+
+
